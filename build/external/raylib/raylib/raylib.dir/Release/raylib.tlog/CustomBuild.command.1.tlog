@@ -1,0 +1,10 @@
+^C:\USERS\ERICT\DOWNLOADS\PIXEL-RPG-MVP-MAIN\PIXEL-RPG-MVP-MAIN\EXTERNAL\RAYLIB\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/erict/Downloads/pixel-rpg-mvp-main/pixel-rpg-mvp-main -BC:/Users/erict/Downloads/pixel-rpg-mvp-main/pixel-rpg-mvp-main/build --check-stamp-file C:/Users/erict/Downloads/pixel-rpg-mvp-main/pixel-rpg-mvp-main/build/external/raylib/raylib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

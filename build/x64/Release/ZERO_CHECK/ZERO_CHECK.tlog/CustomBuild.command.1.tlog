@@ -1,0 +1,10 @@
+^C:\USERS\ERICT\DOWNLOADS\PIXEL-RPG-MVP-MAIN\PIXEL-RPG-MVP-MAIN\BUILD\CMAKEFILES\B99CB208A0DA5119F124756C9648A2DD\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/erict/Downloads/pixel-rpg-mvp-main/pixel-rpg-mvp-main -BC:/Users/erict/Downloads/pixel-rpg-mvp-main/pixel-rpg-mvp-main/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/erict/Downloads/pixel-rpg-mvp-main/pixel-rpg-mvp-main/build/animations.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

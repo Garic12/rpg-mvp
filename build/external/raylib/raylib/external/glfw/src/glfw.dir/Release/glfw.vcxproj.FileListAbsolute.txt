@@ -1,0 +1,1 @@
+C:\Users\erict\Downloads\pixel-rpg-mvp-main\pixel-rpg-mvp-main\build\external\raylib\raylib\external\glfw\src\glfw.dir\Release\glfw.lib

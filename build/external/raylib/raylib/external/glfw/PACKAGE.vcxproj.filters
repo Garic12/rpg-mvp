@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\erict\Downloads\pixel-rpg-mvp-main\pixel-rpg-mvp-main\build\CMakeFiles\548cbb9f2e5af4127fcacff9e3d848aa\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C47FDC05-D6D1-347A-B56E-73EC85002CBB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
